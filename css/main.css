@@ -1,0 +1,380 @@
+/* CSS Reset
+-------------------------------------------------- */
+
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background-color:transparent}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:700}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}pre{overflow:auto}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{height:auto}input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0}textarea{overflow:auto}optgroup{font-weight:700}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}
+
+/* Fonts
+-------------------------------------------------- */
+
+@font-face {
+    font-family: 'GT America';
+    src: url('fonts/GT-America-Regular.eot');
+    src: url('fonts/GT-America-Regular.woff') format('woff'),
+         url('fonts/GT-America-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* Global Stuff
+-------------------------------------------------- */
+
+*, *:before, *:after {
+    box-sizing: border-box;
+    -webkit-overflow-scrolling: touch;
+}
+
+html {
+    font-size: 62.5%;
+    height: 100%;
+}
+
+body {
+    font-size: 1.6em;
+    font-family: 'GT America', sans-serif;
+    line-height: 1.6;
+    font-weight: 400;
+    color: #222;
+
+    webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    font-weight: lighter !important;
+}
+
+
+/* Grid
+-------------------------------------------------- */
+
+.flex-grid {
+    display: flex;
+}
+
+.flex-center-h {
+    justify-content: center;
+}
+
+.flex-center-v {
+    align-items: center;
+}
+
+.flex-center {
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Typography
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0rem;
+    font-weight: 300; }
+h1 { font-size: 6.0rem; line-height: 1.2;  letter-spacing: -.1rem;}
+h2 { font-size: 4.8rem; line-height: 1.25; letter-spacing: -.1rem; }
+h3 { font-size: 3.6rem; line-height: 1.3;  letter-spacing: -.1rem; }
+h4 { font-size: 2.4rem; line-height: 1.35; letter-spacing: -.08rem; }
+h5 { font-size: 1.8rem; line-height: 1.5;  letter-spacing: -.05rem; }
+h6 { font-size: 1.6rem; line-height: 1.6;  letter-spacing: 0; }
+
+p {
+    color: #999;
+}
+
+.small-text {
+    font-size: 1.2rem;
+}
+
+/* Links
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+a {
+    color: #222;
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.3;
+}
+
+/* Header Section
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+header {
+    padding-top: 20px;
+	width: 100%;
+	height: 600px;
+	background-image: linear-gradient(to bottom, #dce2e8, #eff3f6);
+}
+
+.header-inner {
+    max-width: 1000px;
+    width: 90%;
+    margin: auto;
+}
+
+.nav-section {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav {
+    margin: 0;
+    display: flex;
+}
+
+.nav-links {
+    list-style: none;
+    padding-left: 20px;
+}
+
+/* Hero Text */
+
+.hero-text {
+    margin-top: 100px;
+    width: 60%;
+}
+
+.cta-text {
+    margin-top: 40px;
+}
+
+.cta {
+    margin-right: 40px;
+    padding-bottom: 3px;
+    border-bottom: 2px dotted black;
+}
+
+.hero-product {
+    position: relative;;
+    width: 100%;
+}
+
+.header-product-img {
+    height: 520px;
+    position: absolute;
+    right: 0px;
+    top: -160px;
+}
+
+
+/* Intro
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.intro {
+    margin: auto;
+    margin-top: 200px;
+    height: 300px;
+    text-align: center;
+    width: 90%;
+    max-width: 620px;
+    color: #999
+}
+
+
+/* Wand Intro
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.wand-intro {
+    margin-bottom: 100px;
+}
+
+.wand-inner {
+    max-width: 900px;
+    width: 80%;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.wand-intro-image {
+    width: 78%;
+    top: -30px;
+    left: 0;
+    position: absolute;
+}
+
+.wand-intro-text {
+    box-shadow: 0 8px 20px -4px rgba(0,0,0,.02);
+    position: relative;
+    z-index: 1;
+    padding: 60px 40px 40px 150px;
+    background-image: linear-gradient(to bottom, #e9eff5, #eff3f6);
+    max-width: 600px;
+}
+
+.tech-specs {
+    margin-top: 80px;
+}
+
+.wand-image {
+    position: absolute;
+    left: -80px;
+    height: 110%;
+    transform: rotate(-4deg);
+}
+
+/* tech specs */
+
+.spec-box {
+    margin-top: 20px;
+    display: flex;
+    line-height: 0.7;
+}
+
+.right-spec {
+    margin-left: 50px;
+}
+
+.right-spec p {
+
+}
+
+
+/* Changeroom Section
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.changeroom-intro {
+    margin: 80px 0;
+}
+
+.changeroom-inner {
+    display: flex;
+}
+
+.left-changeroom {
+    flex: 2;
+}
+
+.right-changeroom {
+    flex: 3;
+}
+
+.changeroom-image {
+    width: 100%;
+}
+
+/* Checkout Section
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.checkout-intro {
+    margin: 80px 0;
+}
+
+.left-checkout {
+    flex: 3;
+}
+
+.checkout-interface-img {
+    max-width: 100%;
+    margin: auto;
+}
+
+.right-checkout {
+    min-width: 300px;
+    margin: 0 6%;
+    flex-shrink: 0;
+    flex: 2;
+    display: flex;
+    align-items: center;
+}
+
+.right-checkout-text {
+    max-width: 320px;
+    margin: auto;
+}
+
+.checkout-bottom-text {
+    margin-top: 60px;
+}
+
+
+/* Inventory
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.inventory-intro {
+    margin: 160px 0;
+}
+
+.inventory-inner {
+    display: flex;
+    align-items: center;
+}
+
+.inventory-image {
+    width: 90%;
+    margin-left: -70px;
+}
+
+.inventory-left {
+    flex: 2;
+    flex-shrink: 0;
+    margin-left: 8%;
+    z-index: 1;
+}
+
+.inventory-right {
+    flex: 3;
+}
+
+.inventory-divider {
+    border-bottom: 2px solid black;
+    width: 60%;
+    margin-top: 80px;
+}
+
+
+/* Signup
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.signup {
+    margin: 80px 0;
+}
+
+.signup-inner {
+    display: flex;
+    align-items: center;
+}
+
+.signup-image {
+    width: 100%;
+}
+
+.signup-right {
+    flex-shrink: 0;
+    max-width: 420px;
+    margin-left: 10%;
+    margin-right: 40px;
+}
+
+.email-input {
+    border: none;
+    border-bottom: 2px solid black;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    outline: none;
+    padding-bottom: 4px;
+}
+
+.signup-button {
+    background: none;
+    border: none;
+}
+
+.signup-button:hover {
+    background-color: #efefef;
+    outline: none;
+}
+
+
+/* Footer
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+footer {
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.2;
+    margin-bottom: 60px;
+}
