@@ -254,6 +254,7 @@ header {
 }
 
 .step {
+    background-color: #fafdff;
     display: flex;
     flex-direction: column;
     align-items: center;
