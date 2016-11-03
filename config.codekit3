@@ -51,6 +51,12 @@
 		"oF": 0,
 		"opt": 1
 		},
+	"\/images\/changeroom-interface.png.bak": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/images\/changeroom-interface.png.bak",
+		"oF": 0
+		},
 	"\/images\/checkout-interface.png": {
 		"ft": 32768,
 		"iS": 161777,
