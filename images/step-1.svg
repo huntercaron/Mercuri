@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="116px" height="151px" viewBox="0 0 116 151" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>31BD6C29-0CC9-4196-AF01-671BC2ABEC3A</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="40.2576839" height="62.6433738"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="40.2576839" height="62.6433738" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <rect id="path-3" x="28.6763217" y="52.2657005" width="18.0406448" height="103.361567" rx="2"></rect>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="18.0406448" height="103.361567" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-300.000000, -2203.000000)">
+            <g id="step1" transform="translate(299.000000, 2203.000000)">
+                <g id="Group-3" transform="translate(85.821679, 47.749288) rotate(-23.000000) translate(-85.821679, -47.749288) translate(65.692837, 16.427601)" stroke="#979797">
+                    <g id="Group-2" stroke-width="2" fill="#FFFFFF">
+                        <use id="Rectangle-4" mask="url(#mask-2)" xlink:href="#path-1"></use>
+                    </g>
+                    <ellipse id="Oval-4" cx="20.1288419" cy="9.39650606" rx="3.09674491" ry="3.13216869"></ellipse>
+                </g>
+                <path d="" id="Path-4" stroke="#979797"></path>
+                <path d="M66.0316432,0 C66.0316432,0 67.5529579,38.1323308 80.4624641,26.6298501" id="Path-5" stroke="#979797"></path>
+                <ellipse id="Oval-5" stroke="#979797" cx="62.9348983" cy="67.3416268" rx="12.3869797" ry="12.5286748"></ellipse>
+                <ellipse id="Oval-5" stroke="#979797" cx="62.9348983" cy="67.3416268" rx="18.5804695" ry="18.7930121"></ellipse>
+                <ellipse id="Oval-5" stroke="#979797" cx="62.9348983" cy="67.3416268" rx="24.7739593" ry="25.0573495"></ellipse>
+                <use id="Rectangle-3" stroke="#979797" mask="url(#mask-4)" stroke-width="2" fill="#FFFFFF" transform="translate(37.696644, 103.946484) rotate(35.000000) translate(-37.696644, -103.946484) " xlink:href="#path-3"></use>
+                <text id="." font-family="LucidaGrande, Lucida Grande" font-size="9" font-weight="normal" fill="#979797">
+                    <tspan x="49.8982767" y="79.4737955">.</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

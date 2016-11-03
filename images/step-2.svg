@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="154px" height="126px" viewBox="0 0 154 126" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>3381A8BD-475F-4294-A8D5-B12D47A22A38</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="21.9251808" width="18.0406448" height="103.361567" rx="2"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="18.0406448" height="103.361567" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <rect id="path-3" x="66.5800156" y="0" width="86.7088576" height="86.1346389"></rect>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="86.7088576" height="86.1346389" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-622.000000, -2229.000000)">
+            <g id="step2" transform="translate(622.000000, 2229.000000)">
+                <use id="Rectangle-3" stroke="#979797" mask="url(#mask-2)" stroke-width="2" fill="#FFFFFF" transform="translate(9.020322, 73.605964) rotate(-360.000000) translate(-9.020322, -73.605964) " xlink:href="#path-1"></use>
+                <use id="Rectangle-5" stroke="#979797" mask="url(#mask-4)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-3"></use>
+                <path d="M34.1419938,59.114699 L34.1419938,58.0292498 L35.227443,58.0292498 L35.227443,59.114699 L34.1419938,59.114699 Z M36.9896501,59.114699 L36.9896501,58.0292498 L38.0750993,58.0292498 L38.0750993,59.114699 L36.9896501,59.114699 Z M39.8373063,59.114699 L39.8373063,58.0292498 L40.9227555,58.0292498 L40.9227555,59.114699 L39.8373063,59.114699 Z M42.6849626,59.114699 L42.6849626,58.0292498 L43.7704118,58.0292498 L43.7704118,59.114699 L42.6849626,59.114699 Z M45.5326188,59.114699 L45.5326188,58.0292498 L46.618068,58.0292498 L46.618068,59.114699 L45.5326188,59.114699 Z M48.3802751,59.114699 L48.3802751,58.0292498 L49.4657243,58.0292498 L49.4657243,59.114699 L48.3802751,59.114699 Z" id="......" fill="#979797"></path>
+                <path d="M79.7411815,22.708223 L93.6765336,22.708223" id="Line" stroke="#979797" stroke-linecap="square"></path>
+                <path d="M79.7411815,38.3690664 L93.6765336,38.3690664" id="Line-Copy-3" stroke="#979797" stroke-linecap="square"></path>
+                <path d="M79.7411815,52.4638255 L93.6765336,52.4638255" id="Line-Copy-4" stroke="#979797" stroke-linecap="square"></path>
+                <path d="M104.515141,22.708223 L141.67608,22.708223" id="Line-Copy-2" stroke="#979797" stroke-linecap="square"></path>
+                <path d="M104.515141,38.3690664 L141.67608,38.3690664" id="Line-Copy-5" stroke="#979797" stroke-linecap="square"></path>
+                <path d="M104.515141,52.4638255 L141.67608,52.4638255" id="Line-Copy-6" stroke="#979797" stroke-linecap="square"></path>
+            </g>
+        </g>
+    </g>
+</svg>
