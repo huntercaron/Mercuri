@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="195px" height="113px" viewBox="0 0 195 113" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>37E56A09-7E0A-4757-A36E-3597924A8D2F</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <rect id="path-1" x="1.13686838e-13" y="-2.81374923e-14" width="26.8384559" height="41.4681488"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="26.8384559" height="41.4681488" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <rect id="path-3" x="16.8385355" y="35.3459444" width="12.0270966" height="60.1555791" rx="1.32"></rect>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="12.0270966" height="60.1555791" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <rect id="path-5" x="1.12671777e-13" y="-2.81374923e-14" width="26.5988268" height="41.0422104"></rect>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="26.5988268" height="41.0422104" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-Copy-7" transform="translate(-217.000000, -1279.000000)">
+            <g id="wandIcons1" transform="translate(215.000000, 1280.000000)">
+                <g id="Group-18" transform="translate(124.000000, 0.000000)" stroke="#979797">
+                    <g id="step1">
+                        <g id="Group-3" transform="translate(52.822003, 31.621337) rotate(-23.000000) translate(-52.822003, -31.621337) translate(39.155336, 10.769225)">
+                            <g id="Group-2" transform="translate(-0.000000, 0.000000)" stroke-width="2.64" fill="#FFFFFF">
+                                <use id="Rectangle-4" mask="url(#mask-2)" xlink:href="#path-1"></use>
+                            </g>
+                            <ellipse id="Oval-4" stroke-width="1.32" cx="13.419228" cy="6.22022232" rx="2.06449661" ry="2.07340744"></ellipse>
+                        </g>
+                        <ellipse id="Oval-5" stroke-width="1.32" fill="#FFFFFF" cx="37.2899322" cy="44.57826" rx="16.5159729" ry="16.5872595"></ellipse>
+                        <path d="" id="Path-4" stroke-width="0.66"></path>
+                        <path d="M39.3544288,0 C39.3544288,0 40.3686386,25.2425288 48.974976,17.6282106" id="Path-5" stroke-width="1.32"></path>
+                        <ellipse id="Oval-5" stroke-width="1.32" cx="37.2899322" cy="44.57826" rx="8.25798643" ry="8.29362976"></ellipse>
+                        <path d="M37.2899322,57.0187046 C44.1310721,57.0187046 49.6769118,51.4489278 49.6769118,44.57826 C49.6769118,37.7075921 44.1310721,32.1378153 37.2899322,32.1378153 C30.4487922,32.1378153 24.9029525,37.7075921 24.9029525,44.57826 C24.9029525,51.4489278 30.4487922,57.0187046 37.2899322,57.0187046 Z" id="Oval-5" stroke-width="1.32"></path>
+                        <use id="Rectangle-3" mask="url(#mask-4)" stroke-width="2.64" fill="#FFFFFF" transform="translate(22.852084, 65.423734) rotate(35.000000) translate(-22.852084, -65.423734) " xlink:href="#path-3"></use>
+                    </g>
+                    <ellipse id="Oval-7" stroke-width="0.66" fill="#979797" cx="36" cy="46.3380282" rx="0.666666667" ry="0.661971831"></ellipse>
+                </g>
+                <g id="Group-21">
+                    <g id="Group-3" transform="translate(53.011092, 31.296540) rotate(-23.000000) translate(-53.011092, -31.296540) translate(39.466449, 10.658609)" stroke="#979797">
+                        <g id="Group-2" transform="translate(-0.000000, 0.000000)" stroke-width="2.64" fill="#FFFFFF">
+                            <use id="Rectangle-4" mask="url(#mask-6)" xlink:href="#path-5"></use>
+                        </g>
+                        <ellipse id="Oval-4" stroke-width="1.32" cx="13.2994134" cy="6.15633156" rx="2.0460636" ry="2.05211052"></ellipse>
+                    </g>
+                    <path d="" id="Path-4" stroke="#979797" stroke-width="0.66"></path>
+                    <path d="M39.6637642,0 C39.6637642,0 40.6689186,24.9832512 49.1984138,17.4471432" id="Path-5" stroke="#979797" stroke-width="1.32"></path>
+                    <g id="Group-19" transform="translate(25.107143, 27.517241)" stroke="#979797" stroke-width="1.32">
+                        <ellipse id="Oval-5" fill="#FFFFFF" cx="16.3685088" cy="16.4168842" rx="16.3685088" ry="16.4168842"></ellipse>
+                        <ellipse id="Oval-5" cx="16.1128258" cy="16.070511" rx="8.18425441" ry="8.20844208"></ellipse>
+                        <path d="M16.2406673,28.5563607 C23.0207257,28.5563607 28.517049,23.0437937 28.517049,16.2436976 C28.517049,9.44360153 23.0207257,3.93103448 16.2406673,3.93103448 C9.46060898,3.93103448 3.96428571,9.44360153 3.96428571,16.2436976 C3.96428571,23.0437937 9.46060898,28.5563607 16.2406673,28.5563607 Z" id="Oval-5"></path>
+                    </g>
+                    <g id="Group-20" transform="translate(0.000000, 36.689655)">
+                        <path d="M21.6628592,4.31562611 C18.766194,4.31562611 16.3961953,7.10639353 16.3961953,10.5173315 L16.3961953,66.3326798 C16.3961953,69.7436178 18.766194,72.5343852 21.6628592,72.5343852 L47.9961788,72.5343852 C50.892844,72.5343852 53.2628427,69.7436178 53.2628427,66.3326798 L53.2628427,10.5173315 C53.2628427,7.10639353 50.892844,4.34663464 47.9961788,4.34663464 L21.6628592,4.31562611 Z" id="Shape" fill="#FFFFFF" transform="translate(34.829519, 38.425006) rotate(35.000000) translate(-34.829519, -38.425006) "></path>
+                        <path d="M21.6628592,4.31562611 C18.766194,4.31562611 16.3961953,7.10639353 16.3961953,10.5173315 L16.3961953,66.3326798 C16.3961953,69.7436178 18.766194,72.5343852 21.6628592,72.5343852 L47.9961788,72.5343852 C50.892844,72.5343852 53.2628427,69.7436178 53.2628427,66.3326798 L53.2628427,10.5173315 C53.2628427,7.10639353 50.892844,4.34663464 47.9961788,4.34663464 L21.6628592,4.31562611 Z M51.4403253,63.0686244 L18.2187127,63.0686244 L18.2187127,13.7813869 L51.4403253,13.7813869 L51.4403253,63.0686244 L51.4403253,63.0686244 Z" id="Shape" fill="#979797" transform="translate(34.829519, 38.425006) rotate(35.000000) translate(-34.829519, -38.425006) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

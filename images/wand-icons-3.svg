@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="229px" height="122px" viewBox="0 0 229 122" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>29C3221B-2B94-4E07-B0B8-65D9885DF7F0</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <rect id="path-1" x="76" y="0" width="153" height="122" rx="3"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="153" height="122" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <rect id="path-3" x="0.817520383" y="10.6097545" width="36.2677605" height="99.6333228" rx="2"></rect>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="36.2677605" height="99.6333228" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <path d="M10.7288134,22.0172816 C10.7288134,21.1517416 11.5340243,20.4500827 12.5285294,20.4500827 L25.16641,20.4500827 C26.1603657,20.4500827 26.966126,21.1519119 26.966126,22.0172816 L26.966126,100.065591 C26.966126,100.931131 26.1609151,101.63279 25.16641,101.63279 L12.5285294,101.63279 C11.5345737,101.63279 10.7288134,100.930961 10.7288134,100.065591 L10.7288134,22.0172816" id="path-5"></path>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="16.2373126" height="81.1827074" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-Copy-7" transform="translate(-161.000000, -3584.000000)" stroke="#979797">
+            <g id="wandIcons3" transform="translate(161.000000, 3584.000000)">
+                <use id="Rectangle-5-Copy" mask="url(#mask-2)" stroke-width="4" fill="#FFFFFF" xlink:href="#path-1"></use>
+                <use id="Rectangle-5-Copy-2" mask="url(#mask-4)" stroke-width="4" fill="#FFFFFF" xlink:href="#path-3"></use>
+                <path d="M35.5,60 L77.5475922,60" id="Line" stroke-width="2"></path>
+                <use id="Rectangle-3-Copy" mask="url(#mask-6)" stroke-width="4" fill="#FFFFFF" xlink:href="#path-5"></use>
+                <circle id="Oval-2" fill="#979797" cx="19" cy="32" r="1"></circle>
+                <path d="" id="Path-6" stroke-width="2"></path>
+                <g id="Group-8" transform="translate(125.000000, 38.000000)" stroke-width="2">
+                    <g id="Group-7">
+                        <polygon id="Path-7" points="0 21.0078443 12.7400241 0 19.0492691 0 44.4496789 0 57.8744911 21.1778887 49.2226614 26.3254228 44.4496789 21.5557356 44.7122044 48.9419521 13.0877603 48.9419521 13.0877603 21.5557356 8.67825664 26.1533828"></polygon>
+                    </g>
+                    <path d="M12.9989473,0.0573408404 C12.9989473,0.0573408404 18.7269637,7.97703505 13.1902642,21.5004024" id="Path-8"></path>
+                    <path d="M42.0289855,0 C42.0289855,0 47.7570019,7.91969421 42.2203025,21.4430615" id="Path-8" transform="translate(43.330702, 10.721531) scale(-1, 1) translate(-43.330702, -10.721531) "></path>
+                    <path d="M20.1313833,0.0654975704 C20.1313833,0.0654975704 24.1828301,5.2072276 28.5138605,5.2072276 C32.8448908,5.2072276 37.1077438,0.0679302149 37.1077438,0.0679302149" id="Path-9"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

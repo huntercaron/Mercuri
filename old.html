@@ -8,18 +8,18 @@
     <meta name="author" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/old.css">
     <link rel="icon" type="image/png" href="images/favicon.png">
 
 </head>
 
 <body>
-    <div id="container">
+    <div class="container">
 
         <header>
             <div class="header-inner">
-                <div class="slide-in nav-section">
-                    <h4>Mercurí</h4>
+                <div class="nav-section">
+                    <h4>Mercurí (Old)</h4>
                     <div>
                         <ul class="nav">
                             <li class="nav-links"><a href="#">Overview</a></li>
@@ -30,59 +30,56 @@
                     </div>
                 </div>
 
-                <div class="hero-area slide-in">
+                <div class="hero-area">
                     <h2 class="hero-text">Redefining the retail shopping experience.</h2>
-                    <p class="hero-copy">By blending the best of online and in-person shopping, we have crafted a shopping experience like no other.</p>
                     <div class="cta-text">
-                        <a href="#" class="cta main-cta">Sign Up</a>
                         <a href="#" class="cta">Learn More</a>
+                        <a href="#" class="cta">Sign Up</a>
                     </div>
                 </div>
 
-                <div class="hero-product fade-in">
-                    <div id="top-stick" class="stick">
-                        <div class="wand-box fade-in">
-                            <div class="wand-shadow"></div>
-                            <img src="images/wand.png" alt="" class="header-product-img">
-                        </div>
-                        <div class="phone-box">
-                            <div class="stick-phone">
-                                <div class="phone-screen">
-                                    <div class="phone-tap-area">
-                                        <img src="images/tap-arrows.svg" alt="tap-arrows">
-                                        <div class="tap-circle">
-
-                                        </div>
-                                    </div>
-
-                                    <div class="phone-cart-ready">
-                                        <img src="images/add-cart-icon.svg" alt="">
-                                        <p>Ready  To Tap.</p>
-                                    </div>
-
-                                    <div class="phone-text-tap">
-                                        <button class="exit-tap">Exit Tap Mode</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="hero-product">
+                    <img src="images/header-products.png" alt="" class="header-product-img fade-in">
                 </div>
             </div>
         </header>
 
-        <section class="wand-intro flex-grid">
-            <div class="wand-inner">
-                <div id="wand-intro-1" class="wand-text">
-                    <h3>Simply tap your way to a new wardrobe.</h3>
-                    <p>Find an article of clothing you like and tap on it’s tag with a Mercuri wand or your smartphone.</p>
-                    <img src="images/wand-icons-1.svg" class="wand-icons" alt="tap diagram">
-                </div>
+        <section class="intro flex-center">
+            <h4>Mercurí brings the future into the retail shopping experience. <br> By blending the best of online and in-person shopping, we have crafted a shopping experience like no other.</h4>
+        </section>
 
-                <div id="wand-intro-2" class="wand-text">
-                    <h3>The Shopping cart in the palm of your hand.</h3>
-                    <p>With Mercuri your cart is saved as you shop and ready to proceeed when you are.</p>
-                    <img src="images/wand-icons-2.svg" class="wand-icons" alt="cart cloud diagram">
+        <section class="wand-intro flex-grid flex-center">
+            <div class="wand-inner">
+                <img class="wand-intro-image" src="images/store-photo1.png" alt="image of store">
+
+                <div class="wand-intro-text">
+                    <img class="wand-image" src="images/wand-image.png" alt="">
+                    <h4>Tap your way into a new wardrobe.</h4>
+                    <p>With Mercuri, shopping with the smart device of your choice has never been more awesome.</p>
+
+
+                    <div class="tech-specs">
+                        <h5>Technical Specifications</h5>
+                        <div class="spec-box">
+                            <div class="left-spec">
+                                <p>Connectivity</p>
+                            </div>
+                            <div class="right-spec">
+                                <p>Bluetooth 4.2</p>
+                                <p>NFC Connectivity</p>
+                            </div>
+                        </div>
+                        <div class="spec-box">
+                            <div class="left-spec">
+                                <p>Dimensions </p>
+                            </div>
+                            <div class="right-spec">
+                                <p>Mass: 104.2 g (3.68 g)</p>
+                                <p>Diameter: 2.54 cm (1 in)</p>
+                                <p>Height: 15.24 cm (6 in)</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -91,11 +88,16 @@
             <div class="explain-inner flex-grid flex-center">
                 <ol class="steps flex-grid">
                     <li class="step">
-                        <img class="step-img" src="images/wand-icons-3.svg">
+                        <img class="step-img" src="images/step-1.svg">
+                        <p class="step-text small-text">1. Pick a smart device and tap on the tag connected to the clothing.</p>
                     </li>
-                    <li class="kiosk-step">
-                        <h4>Visit a Mecuri kiosk to manage your cart. </h4>
-                        <p>The kiosk will allow you to instantly book a changeroom or checkout right away.</p>
+                    <li class="step">
+                        <img class="step-img" src="images/step-2.svg">
+                        <p class="step-text small-text">2. Information about your purchase is stored on your smart device.</p>
+                    </li>
+                    <li class="step">
+                        <img class="step-img" src="images/step-3.svg">
+                        <p class="step-text small-text">3. Use kiosk to book a change room or purchase your clothes.</p>
                     </li>
                 </ol>
             </div>
@@ -106,8 +108,8 @@
                 <div class="left-changeroom">
                     <div class="changeroom-text">
                         <div class="changeroom-text-top">
-                            <h4>Your Experience. Custom tailored.</h4>
-                            <p>Need a different size? Easily request it from the changeroom interface.</p>
+                            <h4>Your experience. Custom tailored.</h4>
+                            <p>Minimize those painful change room experiences with store employees.</p>
                         </div>
                         <div class="changeroom-text-bottom">
                             <p class="small-text">Making adjustments in the changeroom kiosk will notify employees to perform the necessary tasks to fulfill the user's request.</p>
@@ -179,11 +181,6 @@
 
 
     </div>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>    <script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
-<script src="js/velocityPlugin.js"></script>
-    <script src="js/main.js"></script>
 </body>
 
 </html>
