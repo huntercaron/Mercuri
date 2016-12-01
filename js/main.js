@@ -1,5 +1,6 @@
 $(function () { // wait for document ready
 
+    var played = false;
     var controller = new ScrollMagic.Controller();
     var scene = new ScrollMagic.Scene({
         duration: 3100
@@ -47,7 +48,24 @@ $(function () { // wait for document ready
 
     $(".video").click(function() {
         $(".video").fadeOut();
-
     });
+
+    $("#sign-up").click(function() {
+        $("html, body").animate({ scrollTop: $('#email-input').offset().top }, 1000);
+    });
+
+    $("#learn-more").click(function() {
+        $("html, body").animate({ scrollTop: $('.wand-intro').offset().top }, 1000);
+    });
+
+    if (!played) {
+        window.addEventListener('scroll', function(e) {
+            if (window.pageYOffset >= 5646 && !played) {
+    		          document.querySelector(".inventory-video").play();
+                      console.log("play");
+                      played = true;
+            }
+        });
+    }
 
 });

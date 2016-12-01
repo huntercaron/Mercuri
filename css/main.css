@@ -626,7 +626,7 @@ section .hero-product {
 .inventory-intro {
     margin: 180px 0;
     background-color: #212121;
-    padding: 80px 0;
+    padding: 120px 0;
 }
 
 .inventory-inner {
@@ -637,6 +637,8 @@ section .hero-product {
 
 .inventory-top {
     display: flex;
+    width: 90%;
+    max-width: 800px;
     justify-content: center;
 }
 
@@ -654,6 +656,7 @@ section .hero-product {
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    max-width: 320px;
     flex: 1;
 }
 
@@ -676,7 +679,7 @@ section .hero-product {
 .inventory-right {
     display: flex;
     justify-content: center;
-    flex: 2;
+    flex: 1;
 }
 
 .inventory-divider {
@@ -689,7 +692,7 @@ section .hero-product {
     display: flex;
     justify-content: center;
     width: 96%;
-    margin-top: 100px;
+    margin-top: 140px;
 }
 
 .inventory-feature {
