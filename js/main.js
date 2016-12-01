@@ -39,4 +39,15 @@ $(function () { // wait for document ready
     .setPin("#wand-intro-2")
     .addTo(controller);
 
+
+    $(".play-button").click(function() {
+        $(".video").fadeIn();
+        $(".video").css("display", "flex")
+    });
+
+    $(".video").click(function() {
+        $(".video").fadeOut();
+
+    });
+
 });

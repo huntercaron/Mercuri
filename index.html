@@ -14,37 +14,86 @@
 </head>
 
 <body>
+    <div class="video">
+        <div class="video-box">
+            <iframe class="vimeo" src="https://player.vimeo.com/video/193882987" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>        </div>
+        </div>
+    </div>
     <div id="container">
-
-        <header>
-            <div class="header-inner">
-                <div class="slide-in nav-section">
-                    <h4>Mercurí</h4>
-                    <div>
-                        <ul class="nav">
-                            <li class="nav-links"><a href="#">Overview</a></li>
-                            <li class="nav-links"><a href="#">Specs</a></li>
-                            <li class="nav-links"><a href="#">News</a></li>
-                            <li class="nav-links"><a href="#">Contact</a></li>
-                        </ul>
-                    </div>
+        <div class="top-area">
+            <div class="intro-video-box slide-in">
+                <div class="intro-video-box-box">
+                    <video class="intro-video" width="320" height="240" autoplay="true">
+                      <source src="images/tap.mp4" type="video/mp4">
+                    </video>
                 </div>
-
-                <div class="hero-area slide-in">
-                    <h2 class="hero-text">Redefining the retail shopping experience.</h2>
-                    <p class="hero-copy">By blending the best of online and in-person shopping, we have crafted a shopping experience like no other.</p>
-                    <div class="cta-text">
-                        <a href="#" class="cta main-cta">Sign Up</a>
-                        <a href="#" class="cta">Learn More</a>
-                    </div>
-                </div>
-
-
             </div>
-        </header>
+            <div class="play-button-box scale-up">
+                <div class="play-button">
+                    <img src="images/play-button.svg" alt="">
+                </div>
+            </div>
+            <header class="slide-into-screen">
+                <div class="header-inner">
+                    <div class="slide-in nav-section">
+                        <h4>Mercurí</h4>
+                        <div>
+                            <ul class="nav">
+                                <li class="nav-links"><a href="#">Overview</a></li>
+                                <li class="nav-links"><a href="#">Specs</a></li>
+                                <li class="nav-links"><a href="#">News</a></li>
+                                <li class="nav-links"><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="hero-area slide-in">
+                        <h2 class="hero-text">Redefining the retail shopping experience.</h2>
+                        <p class="hero-copy">By blending the best of online and in-person shopping, we have crafted a shopping experience like no other.</p>
+                        <div class="cta-text">
+                            <a id="" href="#" class="cta main-cta">Sign Up <img class="cta-arrow" src="images/arrow-white.svg" alt=""></a>
+                            <a id="" href="#" class="cta">Learn More <img class="cta-arrow" src="images/arrow-black.svg" alt=""></a>
+                        </div>
+                    </div>
+
+
+                </div>
+            </header>
+        </div>
+
 
         <section class="wand-intro flex-grid">
+
             <div class="wand-inner">
+                <div class="hero-product fade-in">
+                    <div id="top-stick" class="stick">
+                        <div class="wand-box fade-in">
+                            <div class="wand-shadow"></div>
+                            <img src="images/wand.png" alt="" class="header-product-img">
+                        </div>
+                        <div class="phone-box">
+                            <div class="stick-phone">
+                                <div class="phone-screen">
+                                    <div class="phone-tap-area">
+                                        <img src="images/tap-arrows.svg" alt="tap-arrows">
+                                        <div class="tap-circle">
+
+                                        </div>
+                                    </div>
+
+                                    <div class="phone-cart-ready">
+                                        <img src="images/add-cart-icon.svg" alt="">
+                                        <p>Ready  To Tap.</p>
+                                    </div>
+
+                                    <div class="phone-text-tap">
+                                        <button class="exit-tap">Exit Tap Mode</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div id="wand-intro-1" class="wand-text">
                     <h3>Simply tap your way to a new wardrobe.</h3>
                     <p>Find an article of clothing you like and tap on it’s tag with a Mercuri wand or your smartphone.</p>
@@ -117,15 +166,35 @@
 
         <section class="inventory-intro flex-grid flex-center">
             <div class="inventory-inner">
-                <div class="inventory-left">
-                    <h4>Inventory Management. Check.</h4>
-                    <p>Receive insights, predict trends, and manage stock levels with the comprehensive companion application.</p>
-
-                    <div class="inventory-divider"></div>
-                    <p class="small-text">Companion Application and Dashboard Coming Soon.</p>
+                <div class="inventory-top">
+                    <div class="inventory-left">
+                        <div>
+                            <h3 class="light-text">Mercuri Analytics</h3>
+                            <p>Receive insights, predict trends, and manage stock levels with the comprehensive companion application.</p>
+                        </div>
+                    </div>
+                    <div class="inventory-right">
+                        <div class="inventory-phone">
+                            <video class="inventory-video" width="780" height="1280" controls>
+                              <source src="images/inventory.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
                 </div>
-                <div class="inventory-right">
-                    <img src="images/inventory-inferface.jpg" alt="" class="inventory-image">
+
+                <div class="inventory-bottom">
+                    <div class="inventory-feature">
+                        <h4 class="light-text">Manage Inventory</h4>
+                        <p>Inventory management and tracking in the palm of your hand. </p>
+                    </div>
+                    <div class="inventory-feature">
+                        <h4 class="light-text">View Insights</h4>
+                        <p>View smart insights about all pressing matters of your business.</p>
+                    </div>
+                    <div class="inventory-feature">
+                        <h4 class="light-text">Regulate Changerooms</h4>
+                        <p>With a few easy clicks you can see data about the current changerooms status.</p>
+                    </div>
                 </div>
             </div>
         </section>
